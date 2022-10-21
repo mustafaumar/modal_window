@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img src="images/Vector.png" alt="" class="back-image">
+            <img src="images/amico.png" alt="" class="first-image">
+        </div>
+        <div class="info">
+            <p class="text-head">Subscribe to our newsletter!</p>
+            <p class="main">Hey there! We'll send you the best of our blog post. <br><span>Our news letter is sent once a week, every thursday. </span></p>
+
+            <form action="#">
+                <input type="email" name="" id="email"  placeholder="Enter Email" ><br>
+                <button type="submit" class="show">Subscribe</button>
+            </form>
+        </div> 
+    </div>
+
+
+    <div class="modal hidden">
+        <div class="center">
+            <div class="modal-image">
+             <img src="images/bro.png" alt="">                
+            </div>
+            <p class="modal-head">Thank you for subscribing!</p>
+            <p class="modal-text">You'll start receiving our emails.<br>Make sure to check your spam or trash if you can't find them </p>
+            <div class="home">
+                <button type ="submit" class="close">Back to home</button>                
+            </div>
+
+        </div>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+</body>
+</html>
